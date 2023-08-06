@@ -2,20 +2,22 @@
 
 Esta es una versión modificada del ejercicio 1, acá se modifico un poco el código para permitir comunicación con la API creada en el ejercicio 3.
 
-## Ejecución de la aplicación
+## Ejecución de la API
 
-Para probar la aplicación se deberán ejecutar los siguientes comandos desde la terminal, hubicados en la carpeta del proyecto.
-
-```
-npm install
-npm run dev
-```
-
-Así mismo, se debe tener la API en ejecución. De no estarlo debe dirirse a la carpeta de la solución ejecutar los siguientes comandos.
+Para poder probar la aplicación React, se debe tener la API en ejecución. Para ello se deben ejecutar los siguientes comandos desde la terminal, hubicados dentro de la carpeta Api de la solución.
 
 ```
 dotnet build
 dotnet run
+```
+
+## Ejecución de la aplicación React
+
+Para probar la aplicación React se deberán ejecutar los siguientes comandos desde la terminal, hubicados en la carpeta del proyecto.
+
+```
+npm install
+npm run dev
 ```
 
 Luego acceder desde el navegador a la URL que muestra la salida del comando anterior. 
